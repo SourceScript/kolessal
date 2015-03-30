@@ -1,0 +1,50 @@
+/**
+ * @name kolessal
+ * @description This utility file strictly adheres to RSCSS.
+ * @license MIT
+ */
+ 
+ /**
+  * Some text utilities used to center, transform to up / low
+  */
+.u-text {
+  &.-left { text-align: left; }
+  &.-right { text-align: right; }
+  &.-center { text-align: center; }
+  
+  &.-up { text-transform: uppercase; }
+  &.-low { text-transform: lowercase; }
+}
+
+/**
+ * Contain floats without resorting to representational markup,
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.u-clearfix {
+  &::after {
+    content: '',
+    display: block;
+    clear: both;
+  }
+  
+  
+  > .-left { float: left; }
+  > .-right { float: right; }
+}
+
+
+/**
+ * An element represented as a table. This is
+ * used to vertically center content.
+ */
+.u-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+  
+  > .-inner {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+  }
+}
