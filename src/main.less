@@ -21,11 +21,15 @@
  * http://nicolasgallagher.com/micro-clearfix-hack/
  */
 .u-clearfix {
-  &::after {
-    content: '',
-    display: block;
-    clear: both;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
   }
+  
+  &:after { clear: both; }
+  /** For IE */
+  & { *zoom: 1; }
   
   
   > .-left { float: left; }
