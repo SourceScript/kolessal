@@ -1,6 +1,6 @@
 # Contribution
 
-Please feel free to submit an issue for any inquiries, questions, or bla bla bla whatever. \*whispers\* Pull-requests are appreciated.
+Please feel free to submit an issue for any inquiries, questions, or for whatever. Pull-requests are very much appreciated!
 
 ## Coding Style
 
