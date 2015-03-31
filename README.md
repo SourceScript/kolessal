@@ -21,7 +21,7 @@ These days we don't use Twitter Bootstrap or any fancy CSS frameworks anymore. A
   
 ## Why the name?
 
-A play with words with "colossal" (which *ironically* means large) and "less" (our preprocessor and deducts *colossal*) -> ko**LESS**al. *ba dum tss*.
+A play with words with "colossal" (which *ironically* means large) and "less" (the preprocessor used, and also deducts the significance of the word *colossal*) -> ko**less**al. *ba dum tss*.
 
 The first-letter *c* was turned to *k* for `++swag`.
 
