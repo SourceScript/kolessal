@@ -1,0 +1,70 @@
+/**
+ * @name kolessal
+ * @description This utility file strictly adheres to RSCSS.
+ * @license MIT
+ */
+/**
+  * Some text utilities used to center, transform to up / low
+  */
+.u-text {
+  /**
+   * Creates a one-liner text that ends
+   * overflowing text with an ellipsis
+   */
+}
+.u-text.-left {
+  text-align: left;
+}
+.u-text.-right {
+  text-align: right;
+}
+.u-text.-center {
+  text-align: center;
+}
+.u-text.-up {
+  text-transform: uppercase;
+}
+.u-text.-low {
+  text-transform: lowercase;
+}
+.u-text.-truncate {
+  whitespace: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/**
+ * Contain floats without resorting to representational markup,
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.u-clearfix {
+  /** For IE */
+  *zoom: 1;
+}
+.u-clearfix:before,
+.u-clearfix:after {
+  content: " ";
+  display: table;
+}
+.u-clearfix:after {
+  clear: both;
+}
+.u-clearfix > .--left {
+  float: left;
+}
+.u-clearfix > .--right {
+  float: right;
+}
+/**
+ * An element represented as a table. This is
+ * used to vertically center content.
+ */
+.u-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.u-table > .--inner {
+  display: table-cell;
+  vertical-align: center;
+  text-align: center;
+}
