@@ -1,0 +1,16 @@
+{
+  "name": "kolessal",
+  "version": "0.1.0",
+  "homepage": "https://github.com/srph/kolessal",
+  "authors": [
+    "srph <seraphipod@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
