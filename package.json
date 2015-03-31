@@ -1,0 +1,27 @@
+{
+  "name": "kolessal",
+  "version": "1.0.0",
+  "description": "A simple collection of css utilities written in LESS, generally adheres to [RSCSS](https://github.com/rstacruz/rscss).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/lessc src/main.less > dist/kolessal.css",
+    "minify": "./node_modules/.bin/lessc src/main.less > dist/kolessal.min.css",
+    "start": "npm run build || npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srph/kolessal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srph/kolessal/issues"
+  },
+  "homepage": "https://github.com/srph/kolessal",
+  "devDependencies": {
+    "less": "^2.4.0"
+  }
+}
