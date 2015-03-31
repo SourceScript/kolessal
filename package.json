@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/lessc src/main.less > dist/kolessal.css",
-    "minify": "./node_modules/.bin/lessc src/main.less > dist/kolessal.min.css",
+    "minify": "./node_modules/.bin/lessc -x src/main.less > dist/kolessal.min.css",
     "start": "npm run build || npm run minify"
   },
   "repository": {
