@@ -27,6 +27,4 @@ The first-letter *c* was turned to *k* for `++swag`.
 
 ## Acknowledgement
 
-**kolessal** © 2015+, Sourcescript. **kolessal** is released under the [MIT License](https://mit-license.org).
-
-Authored by [**Kier Borromeo**](https://github.com/srph) and maintained by **Sourcescript** with help from its [contributors](https://github.com/sourcescript/kolessal/contributors).
+**kolessal** © 2015+, Kier Borromeo. **kolessal** is released under the [MIT License](https://mit-license.org).
