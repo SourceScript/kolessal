@@ -28,7 +28,7 @@
   text-transform: lowercase;
 }
 .u-text.-truncate {
-  whitespace: nowrap;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
